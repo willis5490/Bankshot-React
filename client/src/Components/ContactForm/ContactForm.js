@@ -27,11 +27,11 @@ class ContactForm extends Component {
       position: toast.POSITION.BOTTOM_CENTER
     });
   };
-  // notifyError2 = () => {
-  //   toast.error("You Must Verify You Are Not A Robot !", {
-  //     position: toast.POSITION.BOTTOM_CENTER
-  //   });
-  // };
+  notifyError2 = () => {
+    toast.error("You Must Verify You Are Not A Robot !", {
+      position: toast.POSITION.BOTTOM_CENTER
+    });
+  };
 
    sendEmail = event => {
     //  event.preventDefault()
@@ -44,9 +44,9 @@ class ContactForm extends Component {
      }else if(this.state.message === ''){
       this.notifyError()
      }
-    //  else if(this.state.cappa === false){
-    //   this.notifyError2()
-    //  }
+     else if(this.state.cappa === false){
+      this.notifyError2()
+     }
      else {
       axios.post("https://www.bankshotmusic.com/sendEmail", {
         email: this.state.email,

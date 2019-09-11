@@ -11,8 +11,8 @@ class Footer extends Component {
         
                   <div id="leftfooter" className="uk-width-1-3@m uk-width-1-1 uk-text-center uk-margin-medium-top   uk-margin-auto-vertical ">    
                         <div className='uk-align-left@m uk-align-center'>
-                        <a className='footerButtons' style={{padding:'20px', color:'white', marginTop:'15px'}} target="_blank" href="https://www.instagram.com/bankshotco/"><i class="fab fa-instagram fa-2x"></i></a>                    
-                        <a className='footerButtons' style={{padding:'20px', color:'white'}} target="_blank" href="https://www.facebook.com/bankshotband"><i class="fab fa-facebook-square fa-2x"></i></a>
+                        <a className='footerButtons' style={{padding:'20px', color:'white', marginTop:'15px'}} target="_blank" href="https://www.instagram.com/bankshotmusic/"><i class="fab fa-instagram fa-2x"></i></a>                    
+                        <a className='footerButtons' style={{padding:'20px', color:'white'}} target="_blank" href="https://www.facebook.com/bankshotmusic"><i class="fab fa-facebook-square fa-2x"></i></a>
                         <a className='footerButtons' style={{padding:'20px', color:'white'}} target="_blank" href="https://m.soundcloud.com/bankshotco"><i class="fab fa-soundcloud fa-2x"></i></a>
                         </div>
                         
@@ -31,8 +31,8 @@ class Footer extends Component {
                               <ul id="middlenav" className="">                                                      
                                     <li ><a className="footerLinks2" id="mobile-links" href="/Images"><b><i>IMAGES</i></b></a></li>
                                     <li ><a className="footerLinks2" id="mobile-links" href="/Videos"><b><i>VIDEOS</i></b></a></li>
-                                    <li className='uk-hidden@m'><a className="footerLinks2" id="mobile-links" target="_blank" href="https://www.facebook.com/bankshotband/events"><b><i>SHOWS</i></b></a></li>
-                                    <li className='uk-visible@m'><a className="footerLinks2" id="mobile-links" target="_blank" href="https://www.facebook.com/bankshotband/events"><b><i>SHOWS</i></b></a></li>
+                                    <li className='uk-hidden@m'><a className="footerLinks2" id="mobile-links" target="_blank" href="https://www.facebook.com/bankshotmusic/events"><b><i>SHOWS</i></b></a></li>
+                                    <li className='uk-visible@m'><a className="footerLinks2" id="mobile-links" target="_blank" href="https://www.facebook.com/bankshotmusic/events"><b><i>SHOWS</i></b></a></li>
                                     
                                     </ul>
                               </div>

@@ -245,6 +245,7 @@ ul{
 .imagesMobile{
     width: 100%;
     height: 500px;
+    padding: 60px;
 }
 
 /* contact form */
@@ -284,9 +285,7 @@ ul{
       left: 50%;
   }
  
-
-  
-  
+ 
 
 
 
@@ -323,9 +322,11 @@ ul{
     }
     .imagesMobile{
         width: 100%;
-        height: 400px;
-        padding-left: 10%;
-        padding-right: 10%;
+        height: 350px;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
     .footerLinks{
         font-size: 13px !important;
@@ -457,9 +458,11 @@ ul{
     }
     .imagesMobile{
         width: 100%;
-        height: 375px;
-        padding-left: 2%;
-        padding-right: 2%;
+        height: 250px;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
     .videoPlayer{
         width: 100% !important;
@@ -494,5 +497,9 @@ ul{
         text-align-last: center;
         padding-bottom: 0px;
        
+    }
+    .imagesMobile{
+        width: 100%;
+        height: 225px;       
     }
 }

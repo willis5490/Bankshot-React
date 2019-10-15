@@ -24,26 +24,22 @@ class Home extends Component {
           
           </div>
 
-           <div id='homeWrapper2' className='uk-margin-medium-bottom'>
+           <div id='homeWrapper2' className='uk-margin-large-bottom '>
             <div className='uk-container'>
-                <div uk-grid='true'>
+                <div uk-grid='true' className=''>
                      <div className='uk-width-1-1'>
                         <h1  class="sectionHeaders" uk-parallax="opacity: 0,1; y: -75,0; scale: 0.25,1; viewport: 0.5;">MUSIC</h1>
                      </div>
-                     <div className='uk-width-1-2@m uk-width-1-1 uk-text-center'>
-                        <div class="uk-card uk-card-default uk-card-body"  uk-parallax="opacity: 0,1; y: -75,0; scale: 0.5,1; viewport: 0.3;">
+                     <div className='uk-width-1-2@m uk-width-1-1 uk-text-center '>
+                        <div class="uk-card uk-card-default uk-card-body musicPlayer"  uk-parallax="opacity: 0,1; y: -75,0; scale: 0.5,1; viewport: 0.3;">
                             <h2>B(e) Funk (Live)</h2>                        
-                            <audio src="./css/images/1. Bill's Funk (raw).mp3" controls></audio>
-                            
-                        
+                            <audio src="./css/images/1. Bill's Funk (raw).mp3" controls='true'></audio>
                         </div>
                      </div>
                      <div className='uk-width-1-2@m uk-width-1-1 uk-text-center'>
-                        <div class="uk-card uk-card-default uk-card-body"  uk-parallax="opacity: 0,1; y: -75,0; scale: 0.5,1; viewport: 0.3;">
+                        <div class="uk-card uk-card-default uk-card-body musicPlayer"  uk-parallax="opacity: 0,1; y: -75,0; scale: 0.5,1; viewport: 0.3;">
                             <h2>Get Down Girl (Live)</h2>                            
-                            <audio src="./css/images/3. Get Down Girl (raw).mp3" controls></audio>
-                         
-                            
+                            <audio src="./css/images/3. Get Down Girl (raw).mp3" controls='true'></audio>       
                         </div>
                      </div>                     
                 </div>
@@ -76,7 +72,7 @@ class Home extends Component {
                         <div class="uk-card uk-card-default uk-grid-collapse  uk-margin" uk-grid uk-parallax="opacity: 0,1,1; y: 200,0,0;   viewport: .35;" uk-grid='true'>
                             <div class="uk-width-1-2@m uk-with-1-1" >
                                 <div class="uk-card-media-left uk-cover-container ">
-                                    <img className="cardPics uk-margin-small-top" src="./css/images/BankShotCo-14.jpg" alt="Bankshot Music Singer Denver, CO" uk-cover='true'/>
+                                    <img className="cardPics  " src="./css/images/BankShotCo-14.jpg" alt="Bankshot Music Singer Denver, CO" uk-cover='true'/>
                                     <canvas width="500" height="400"></canvas>
                                     <div className='picButtonHomeCard' uk-grid='true' uk-lightbox="animation: scale">
                                             <div className=''>
@@ -128,7 +124,7 @@ class Home extends Component {
                                 <div className='uk-width-1-2@m uk-with-1-1'>
                                     
                                     <div class="uk-card-media-right uk-cover-container">
-                                    <img class="cardPics uk-margin-small-top" src="./css/images/BankShotCo-27.jpg" alt="Bankshot Music Guitar Player Denver, CO"  uk-cover='true'/>
+                                    <img class="cardPics " src="./css/images/BankShotCo-27.jpg" alt="Bankshot Music Guitar Player Denver, CO"  uk-cover='true'/>
                                     <canvas width="500" height="400"></canvas>
                                     <div className='picButtonHomeCard' uk-grid='true' uk-lightbox="animation: scale">
                                             <div>
@@ -161,7 +157,7 @@ class Home extends Component {
                         <div class="uk-card uk-card-default uk-grid-collapse  uk-margin" uk-grid uk-parallax="opacity: 0,1,1; y: 200,0,0;   viewport: .35;" uk-grid='true'>
                             <div class="uk-width-1-2@m uk-with-1-1" >
                                 <div class="uk-card-media-left uk-cover-container ">
-                                    <img className="cardPics uk-margin-small-top" src="./css/images/BankShotCo-43.jpg" alt="Bankshot Music Drum Player Denver, CO" uk-cover='true'/>
+                                    <img className="cardPics " src="./css/images/BankShotCo-43.jpg" alt="Bankshot Music Drum Player Denver, CO" uk-cover='true'/>
                                     <canvas width="500" height="400"></canvas>
                                     <div className='picButtonHomeCard' uk-grid='true' uk-lightbox="animation: scale">
                                             <div>
@@ -215,7 +211,7 @@ class Home extends Component {
                                 <div className='uk-width-1-2@m uk-with-1-1'>
                                     
                                     <div class="uk-card-media-right uk-cover-container">
-                                    <img class="cardPics uk-margin-small-top" src="./css/images/BankShotCo-24.jpg" alt="Bankshot Music Bass Guitar Player Denver, CO" uk-cover='true'/>
+                                    <img class="cardPics " src="./css/images/BankShotCo-24.jpg" alt="Bankshot Music Bass Guitar Player Denver, CO" uk-cover='true'/>
                                     <canvas width="500" height="400"></canvas>
                                     <div className='picButtonHomeCard' uk-grid='true' uk-lightbox="animation: scale">
                                             <div>
@@ -248,7 +244,7 @@ class Home extends Component {
                         <div class="uk-card uk-card-default uk-grid-collapse  uk-margin" uk-grid uk-parallax="opacity: 0,1,1; y: 200,0,0;   viewport: .35;" uk-grid='true'>
                             <div class="uk-width-1-2@m uk-with-1-1" >
                                 <div class="uk-card-media-left uk-cover-container ">
-                                    <img className="cardPics uk-margin-small-top"  src="./css/images/whits-bio-pic.png" alt="Bankshot Music keyboard player Denver, CO" uk-cover='true'/>
+                                    <img className="cardPics "  src="./css/images/whits-bio-pic.png" alt="Bankshot Music keyboard player Denver, CO" uk-cover='true'/>
                                     <canvas width="500" height="400"></canvas>
                                     <div className='picButtonHomeCard' uk-grid='true' uk-lightbox="animation: scale">
                                             <div>

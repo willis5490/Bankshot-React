@@ -29,15 +29,15 @@ class Header extends Component {
                                 </li>
                                 <li className=""><a id="mobile-links" href="/About"><b><i>About</i></b></a></li>
                                 <li className=""><a id="mobile-links" href="/Contact"><b><i>Contact</i></b></a></li>
-                                <li className=""><a id="mobile-links" target="_blank" href="https://www.facebook.com/bankshotmusic/events"><b><i>Shows</i></b></a></li>
+                                <li className=""><a id="mobile-links" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/bankshotmusic/events"><b><i>Shows</i></b></a></li>
 
                             </ul>
                         </div>
                         <div style={{ paddingRight: '20px' }} className="uk-navbar-right uk-visible@m">
                             <ul class="uk-navbar-nav">
-                                <li class="uk-active"> <a style={{ color: 'black' }} className='headerButtons' target="_blank" href="https://www.instagram.com/bankshotmusic/"><i class="fab fa-instagram fa-3x"></i></a></li>
-                                <li class="uk-active"><a style={{ color: 'black' }} className='headerButtons' target="_blank" href="https://www.facebook.com/bankshotmusic"><i class="fab fa-facebook-square fa-3x"></i></a></li>
-                                <li class="uk-active"><a style={{ color: 'black' }} className='headerButtons' target="_blank" href="https://m.soundcloud.com/bankshotco"><i class="fab fa-soundcloud fa-3x"></i></a></li>
+                                <li class="uk-active"> <a style={{ color: 'black' }} className='headerButtons' target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bankshotmusic/"><i class="fab fa-instagram fa-3x"></i></a></li>
+                                <li class="uk-active"><a style={{ color: 'black' }} className='headerButtons' target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/bankshotmusic"><i class="fab fa-facebook-square fa-3x"></i></a></li>
+                                <li class="uk-active"><a style={{ color: 'black' }} className='headerButtons' target="_blank" rel="noopener noreferrer" href="https://m.soundcloud.com/bankshotco"><i class="fab fa-soundcloud fa-3x"></i></a></li>
                             </ul>
                         </div>
 
@@ -57,7 +57,7 @@ class Header extends Component {
                                             <li className=""><a style={{ color: 'black', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/">Home</a></li>
                                             <li className=""><a style={{ color: 'black', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/Videos">Videos</a></li>
                                             <li className=""><a style={{ color: 'black', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/Images">Images</a></li>
-                                            <li className=""><a style={{ color: 'black', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} target="_blank" href="https://www.facebook.com/bankshotmusic/events">Shows</a></li>
+                                            <li className=""><a style={{ color: 'black', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/bankshotmusic/events">Shows</a></li>
                                             <li className=""><a style={{ color: 'black', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/About">About</a></li>
                                             <li className=""><a style={{ color: 'black', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/Contact">Contact</a></li>
                                         </ul>
@@ -67,8 +67,8 @@ class Header extends Component {
                         </div>
                         <div className="uk-navbar-right uk-hidden@m">
                             <ul className="uk-navbar-nav">
-                                <li class="uk-active"> <a style={{ color: 'black' }} className='' target="_blank" href="https://www.instagram.com/bankshotmusic/"><i class="fab fa-instagram fa-2x"></i></a></li>
-                                <li class="uk-active"><a style={{ color: 'black' }} className='mobileSocialMediaHeaderIcons' target="_blank" href="https://www.facebook.com/bankshotmusic"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                                <li class="uk-active"> <a style={{ color: 'black' }} className='' target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bankshotmusic/"><i class="fab fa-instagram fa-2x"></i></a></li>
+                                <li class="uk-active"><a style={{ color: 'black' }} className='mobileSocialMediaHeaderIcons' target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/bankshotmusic"><i class="fab fa-facebook-square fa-2x"></i></a></li>
                             </ul>
                         </div>
                     </nav>

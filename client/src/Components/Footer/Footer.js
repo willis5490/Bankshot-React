@@ -11,9 +11,9 @@ class Footer extends Component {
         
                   <div id="leftfooter" className="uk-width-1-3@m uk-width-1-1 uk-text-center uk-margin-medium-top   uk-margin-auto-vertical ">    
                         <div className='uk-align-left@m uk-align-center'>
-                        <a className='footerButtons' style={{padding:'20px', color:'white', marginTop:'15px'}} target="_blank" href="https://www.instagram.com/bankshotmusic/"><i class="fab fa-instagram fa-2x"></i></a>                    
-                        <a className='footerButtons' style={{padding:'20px', color:'white'}} target="_blank" href="https://www.facebook.com/bankshotmusic"><i class="fab fa-facebook-square fa-2x"></i></a>
-                        <a className='footerButtons' style={{padding:'20px', color:'white'}} target="_blank" href="https://m.soundcloud.com/bankshotco"><i class="fab fa-soundcloud fa-2x"></i></a>
+                        <a className='footerButtons' style={{padding:'20px', color:'white', marginTop:'15px'}} target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bankshotmusic/"><i class="fab fa-instagram fa-2x"></i></a>                    
+                        <a className='footerButtons' style={{padding:'20px', color:'white'}} target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/bankshotmusic"><i class="fab fa-facebook-square fa-2x"></i></a>
+                        <a className='footerButtons' style={{padding:'20px', color:'white'}} target="_blank" rel="noopener noreferrer" href="https://m.soundcloud.com/bankshotco"><i class="fab fa-soundcloud fa-2x"></i></a>
                         </div>
                         
                   </div>

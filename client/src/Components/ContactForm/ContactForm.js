@@ -27,6 +27,11 @@ class ContactForm extends Component {
       position: toast.POSITION.BOTTOM_CENTER
     });
   };
+  notifyErrorEmail = () => {
+    toast.error("You Must Provide A Valid Email", {
+      position: toast.POSITION.BOTTOM_CENTER
+    });
+  };
   notifyError2 = () => {
     toast.error("You Must Verify You Are Not A Robot !", {
       position: toast.POSITION.BOTTOM_CENTER
@@ -37,10 +42,8 @@ class ContactForm extends Component {
     //  event.preventDefault()
      if(this.state.name === ''){
        this.notifyError()
-     }else if(this.state.email === ''){
-      this.notifyError()
-     }else if(this.state.inquiry === ''){
-      this.notifyError()
+     }else if(/[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/.test(this.state.email) == false){
+      this.notifyErrorEmail()
      }else if(this.state.message === ''){
       this.notifyError()
      }
@@ -131,11 +134,9 @@ class ContactForm extends Component {
                   value={this.state.inquiry}
                   onChange={this.handleInputChange}
                   name='inquiry'
-                 className="uk-select ContactInputBody">
-                   <option>{`Whats on your mind?`}</option>
-                   <option>I just wanna give love</option>
-                   <option>I am interested in booking the band</option>
-                   <option>I have a general question</option>                 
+                 className="uk-select ContactInputBody">                  
+                   <option>I just wanna give some love</option>
+                   <option>I am interested in booking the band</option>                                 
                    <span uk-icon="icon: chevron-down"></span>
                  </select>
                </div>

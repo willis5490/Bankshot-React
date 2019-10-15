@@ -96,11 +96,14 @@ class ImagesPage extends Component {
                 <div className='uk-width-1-2@m uk-width-1-1'>
                   <img className='imagesMobile'src={this.state.images[8]}></img>
                 </div>
-                <div className=' uk-width-1-2@m uk-width-1-1'>
+                <div className=' uk-width-1-2@m uk-width-1-1 uk-margin-medium-bottom uk-visible@m'>
                   <img className='imagesMobile'src={this.state.images[9]}></img>
                 </div>
-                <div className=' uk-width-1-2@m uk-width-1-1'>
-                  <img className='imagesMobile uk-margin-medium-bottom'src={this.state.images[11]}></img>
+                <div className=' uk-width-1-2@m uk-width-1-1 uk-hidden@m'>
+                  <img className='imagesMobile'src={this.state.images[9]}></img>
+                </div>
+                <div className=' uk-width-1-2@m uk-width-1-1 uk-margin-medium-bottom'>
+                  <img className='imagesMobile 'src={this.state.images[11]}></img>
                 </div>
                
               </div>            

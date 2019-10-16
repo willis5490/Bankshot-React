@@ -11,7 +11,7 @@ class Header extends Component {
                     <nav id="headies" className="uk-navbar-container uk-margin uk-margin-auto uk-margin-auto-vertical" uk-navbar='true' uk-navbar="mode: click" >
                         <div style={{ paddingLeft: '20px' }} className="uk-navbar-left uk-visible@m ">
                             <ul className="uk-navbar-nav">
-                                <li style={{ padding: '15px' }} className=""><a href="/"><img id="logoimage" src="./css/images/bankshotphoto.JPG" alt="Bankshot music band logo"></img></a></li>
+                                <li style={{ padding: '15px' }} className=""><a href="/"><img id="logoimage" src="./css/images/bankshotNewLogo.jpg" alt="Bankshot music band logo"></img></a></li>
 
                             </ul>
                         </div>
@@ -50,7 +50,7 @@ class Header extends Component {
                                         <ul className="uk-nav uk-nav-default uk-text-center">
                                             <li className="uk-nav-header">
                                                 <a className="uk-offcanvas-close" uk-close>X</a>
-                                                <a href='/'><img className="uk-align-center uk-margin-remove-bottom" id="logoimage" src="./css/images/bankshotphoto.JPG" alt="Bankshot music band logo" width="100" height="75"  ></img></a>
+                                                <a href='/'><img className="uk-align-center uk-margin-remove-bottom" id="logoimage" src="./css/images/bankshotNewLogo.jpg" alt="Bankshot music band logo" width="100" height="75"  ></img></a>
                                             </li>
                                             <hr className='uk-margin-small-top uk-align-center' style={{ borderBottom: '8px solid white', width: '60%' }}></hr>
 

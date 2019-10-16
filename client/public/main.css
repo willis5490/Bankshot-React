@@ -80,7 +80,7 @@ background-color: #7C619B;
     padding-bottom: 20px;
 }
 #contactWrapper{
-    background: url('./css/images/BankShotCo-32T.jpg');
+    background: url('https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-32T.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,12 +119,12 @@ background-color: #7C619B;
     text-align: center;
 }
 #logoimage{
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 250px;
 }
 #logoimageFooter{
-    height: 125px;
-    width: 125px;
+    height: 100px;
+    width: 250px;
 }
 .homeBioPicsLightbox{
     padding: 20px;
@@ -299,6 +299,9 @@ ul{
     height: 500px !important;
     padding-left: 1.5%;
     }
+    #logoimage{
+       margin-top: 20px;
+    }
     .slider{
         height: 700px;
     }
@@ -456,7 +459,7 @@ ul{
 
     #logoimage{
         height: 75px;
-        width: 75px;
+        width: 150px;
     }
 
   

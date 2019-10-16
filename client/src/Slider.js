@@ -11,10 +11,10 @@ class Slider extends Component {
   
 	  this.state = {
 		images: [
-			"./css/images/BankShotCo-19.jpg",
-		  "./css/images/BankShotCo-17.jpg",
-		  "./css/images/BankShotCo-2.jpg",		
-		  "./css/images/BankShotCo-13.jpg", 
+			"https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-19.jpg",
+		  "https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-17.jpg",
+		  "https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-2.jpg",		
+		  "https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-13.jpg", 
 		],
 		currentIndex: 0,
 		translateValue: 0

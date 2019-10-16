@@ -39,7 +39,7 @@ class Footer extends Component {
                         </div>
                   </div>
                   <div id='rightfooter' className="uk-width-1-3@m uk-width-1-1 uk-text-center uk-flex-first uk-flex-last@m footletters  uk-margin-medium-top uk-margin-auto-vertical">
-                        <a href='/'><img className='uk-align-right@m uk-align-center uk-margin-auto-vertical' style={{padding:'15px'}} id="logoimageFooter"src="./css/images/bankshotphoto.JPG"></img>   </a>                     
+                        <a href='/'><img className='uk-align-right@m uk-align-center uk-margin-auto-vertical' style={{padding:'15px'}} id="logoimageFooter"src="./css/images/bankshotNewLogo.jpg"></img>   </a>                     
                   </div>
             
             </nav>

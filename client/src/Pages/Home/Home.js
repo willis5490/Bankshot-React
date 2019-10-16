@@ -50,13 +50,13 @@ class Home extends Component {
               <div className='uk-container '>
                 <div uk-grid='true' className=''>
                     <div className='uk-with-1-1 uk-width-1-3@m uk-visible@m uk-margin-large-top uk-margin-large-bottom'>                     
-                        <img className='homePhotoWrapper' src="./css/images/BankShotCo-42.jpg"></img>
+                        <img className='homePhotoWrapper' src="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-42.jpg"></img>
                     </div>
                     <div className='uk-with-1-1 uk-width-1-3@m uk-margin-large-top uk-margin-large-bottom'>
-                        <img id='middleHomePhotoBill' className='' src="./css/images/BankShotCo-12.jpg"></img>
+                        <img id='middleHomePhotoBill' className='' src="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-12.jpg"></img>
                     </div>
                     <div className='uk-with-1-1 uk-width-1-3@m uk-visible@m uk-margin-large-top uk-margin-large-bottom'>
-                        <img className='homePhotoWrapper2 uk-margin-medium-bottom' src="./css/images/BankShotCo-26.jpg"></img>                   
+                        <img className='homePhotoWrapper2 uk-margin-medium-bottom' src="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-26.jpg"></img>                   
                     </div>
                 </div>
               </div>
@@ -72,28 +72,28 @@ class Home extends Component {
                         <div class="uk-card uk-card-default uk-grid-collapse  uk-margin" uk-grid uk-parallax="opacity: 0,1,1; y: 200,0,0;   viewport: .35;" uk-grid='true'>
                             <div class="uk-width-1-2@m uk-with-1-1" >
                                 <div class="uk-card-media-left uk-cover-container ">
-                                    <img className="cardPics  " src="./css/images/BankShotCo-14.jpg" alt="Bankshot Music Singer Denver, CO" uk-cover='true'/>
+                                    <img className="cardPics  " src="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-14.jpg" alt="Bankshot Music Singer Denver, CO" uk-cover='true'/>
                                     <canvas width="500" height="400"></canvas>
                                     <div className='picButtonHomeCard' uk-grid='true' uk-lightbox="animation: scale">
                                             <div className=''>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-4.jpg" >
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-4.jpg" >
                                                     <h4 class="uk-button uk-button-default" >More Pics...</h4>
                                                 </a>
                                             </div>
                                             <div className='hiddenHomeDivs'>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-40.jpg" >                                            
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-40.jpg" >                                            
                                                 </a>
                                             </div>
                                             <div className='hiddenHomeDivs'>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-14.jpg" >                                            
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-14.jpg" >                                            
                                                 </a>
                                             </div>
                                             <div className='hiddenHomeDivs'>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-45.jpg" >                                            
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-45.jpg" >                                            
                                                 </a>
                                             </div>
                                             <div className='hiddenHomeDivs'>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-25.jpg" >                                            
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-25.jpg" >                                            
                                                 </a>
                                             </div>
                                         </div>
@@ -124,28 +124,28 @@ class Home extends Component {
                                 <div className='uk-width-1-2@m uk-with-1-1'>
                                     
                                     <div class="uk-card-media-right uk-cover-container">
-                                    <img class="cardPics " src="./css/images/BankShotCo-27.jpg" alt="Bankshot Music Guitar Player Denver, CO"  uk-cover='true'/>
+                                    <img class="cardPics " src="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-27.jpg" alt="Bankshot Music Guitar Player Denver, CO"  uk-cover='true'/>
                                     <canvas width="500" height="400"></canvas>
                                     <div className='picButtonHomeCard' uk-grid='true' uk-lightbox="animation: scale">
                                             <div>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-17.jpg" >
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-17.jpg" >
                                                     <h4 class="uk-button uk-button-default" >More Pics...</h4>
                                                 </a>
                                             </div>
                                             <div  className='hiddenHomeDivs'>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-8.jpg" >                                            
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-8.jpg" >                                            
                                                 </a>
                                             </div>
                                             <div  className='hiddenHomeDivs'>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-37.jpg" >                                            
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-37.jpg" >                                            
                                                 </a>
                                             </div>
                                             <div  className='hiddenHomeDivs'>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-27.jpg" >                                            
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-27.jpg" >                                            
                                                 </a>
                                             </div>
                                             <div  className='hiddenHomeDivs'>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-6.jpg" >                                            
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-6.jpg" >                                            
                                                 </a>
                                             </div>
                                         </div>
@@ -157,28 +157,28 @@ class Home extends Component {
                         <div class="uk-card uk-card-default uk-grid-collapse  uk-margin" uk-grid uk-parallax="opacity: 0,1,1; y: 200,0,0;   viewport: .35;" uk-grid='true'>
                             <div class="uk-width-1-2@m uk-with-1-1" >
                                 <div class="uk-card-media-left uk-cover-container ">
-                                    <img className="cardPics " src="./css/images/BankShotCo-43.jpg" alt="Bankshot Music Drum Player Denver, CO" uk-cover='true'/>
+                                    <img className="cardPics " src="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-43.jpg" alt="Bankshot Music Drum Player Denver, CO" uk-cover='true'/>
                                     <canvas width="500" height="400"></canvas>
                                     <div className='picButtonHomeCard' uk-grid='true' uk-lightbox="animation: scale">
                                             <div>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-18.jpg" >
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-18.jpg" >
                                                     <h4 class="uk-button uk-button-default" >More Pics...</h4>
                                                 </a>
                                             </div>
                                             <div  className='hiddenHomeDivs'>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-49.jpg" >                                            
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-49.jpg" >                                            
                                                 </a>
                                             </div>
                                             <div  className='hiddenHomeDivs'>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-21.jpg" >                                            
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-21.jpg" >                                            
                                                 </a>
                                             </div>
                                             <div  className='hiddenHomeDivs'>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-44.jpg" >                                            
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-44.jpg" >                                            
                                                 </a>
                                             </div>
                                             <div  className='hiddenHomeDivs'>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-34.jpg" >                                            
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-34.jpg" >                                            
                                                 </a>
                                             </div>
                                           
@@ -211,28 +211,28 @@ class Home extends Component {
                                 <div className='uk-width-1-2@m uk-with-1-1'>
                                     
                                     <div class="uk-card-media-right uk-cover-container">
-                                    <img class="cardPics " src="./css/images/BankShotCo-24.jpg" alt="Bankshot Music Bass Guitar Player Denver, CO" uk-cover='true'/>
+                                    <img class="cardPics " src="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-24.jpg" alt="Bankshot Music Bass Guitar Player Denver, CO" uk-cover='true'/>
                                     <canvas width="500" height="400"></canvas>
                                     <div className='picButtonHomeCard' uk-grid='true' uk-lightbox="animation: scale">
                                             <div>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-9.jpg" >
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-9.jpg" >
                                                     <h4 class="uk-button uk-button-default" >More Pics...</h4>
                                                 </a>
                                             </div>
                                             <div  className='hiddenHomeDivs'>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-5.jpg" >                                            
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-5.jpg" >                                            
                                                 </a>
                                             </div>
                                             <div  className='hiddenHomeDivs'>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-12.jpg" >                                            
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-12.jpg" >                                            
                                                 </a>
                                             </div>
                                             <div  className='hiddenHomeDivs'>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-48.jpg" >                                            
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-48.jpg" >                                            
                                                 </a>
                                             </div>
                                             <div  className='hiddenHomeDivs'>
-                                                <a class="uk-inline" href="./css/images/BankShotCo-13.jpg" >                                            
+                                                <a class="uk-inline" href="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-13.jpg" >                                            
                                                 </a>
                                             </div>
                                         </div>

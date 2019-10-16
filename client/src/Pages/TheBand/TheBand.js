@@ -30,13 +30,13 @@ class TheBand extends Component {
                         </div>
                     </div>                  
                     <div class="uk-width-1-2@m uk-width-1-1 uk-text-center uk-margin-auto uk-margin-auto-vertical uk-flex-first uk-flex-last@m">
-                        <img style={{width:'450px', height:'350px'}} class="bankAboutPics" src="./css/images/BankShotCo-14.jpg"  alt="Bankshot band singer Denver, CO"/>
+                        <img style={{width:'450px', height:'350px'}} class="bankAboutPics" src="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-14.jpg"  alt="Bankshot band singer Denver, CO"/>
                     </div>                    
                 </div>
                 <div id='grhamBio'></div>
             <div id='theband1'  class=" uk-animation-scale-up uk-height-expand uk-background-cover uk-margin-xlarge-top uk-overflow-hidden  uk-flex uk-flex-top  " uk-grid='true' >
                 <div class="uk-width-1-2@m uk-width-1-1 uk-text-center uk-margin-auto uk-margin-auto-vertical">
-                    <img style={{width:'450px', height:'350px'}} class="bankAboutPics" src="./css/images/BankShotCo-27.jpg" alt="Bankshot band guitar player Denver, CO" />
+                    <img style={{width:'450px', height:'350px'}} class="bankAboutPics" src="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-27.jpg" alt="Bankshot band guitar player Denver, CO" />
                 </div>
                 <div class="uk-width-1-2@m uk-width-1-1 uk-text-left@m uk-text-center uk-margin-auto uk-margin-auto-vertical ">
                     <div className='uk-container'>
@@ -69,13 +69,13 @@ class TheBand extends Component {
                         </div>
                     </div>
                     <div class="uk-width-1-2@m uk-width-1-1 uk-text-center uk-margin-auto uk-margin-auto-vertical uk-flex-first uk-flex-last@m">
-                        <img style={{width:'450px', height:'350px'}} class="bankAboutPics"src="./css/images/BankShotCo-43.jpg" alt="Bankshot band drum player Denver, CO" />
+                        <img style={{width:'450px', height:'350px'}} class="bankAboutPics"src="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-43.jpg" alt="Bankshot band drum player Denver, CO" />
                     </div>
                 </div>
                 <div id='billsBio'></div>
             <div id='theband1'  class=" uk-animation-scale-up uk-height-expand uk-background-cover  uk-margin-xlarge-top uk-overflow-hidden  uk-flex uk-flex-top  " uk-grid='true' >
                 <div class="uk-width-1-2@m uk-width-1-1 uk-text-center uk-margin-auto uk-margin-auto-vertical">
-                    <img style={{width:'450px', height:'350px'}} class="bankAboutPics"src="./css/images/BankShotCo-24.jpg" alt="Bankshot band bass player Denver, CO"/>
+                    <img style={{width:'450px', height:'350px'}} class="bankAboutPics"src="https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-24.jpg" alt="Bankshot band bass player Denver, CO"/>
                 </div>
                 <div class="uk-width-1-2@m uk-width-1-1 uk-text-left@m uk-text-center uk-margin-auto uk-margin-auto-vertical ">
                     <div className='uk-container'>

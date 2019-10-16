@@ -80,7 +80,7 @@ background-color: #7C619B;
     padding-bottom: 20px;
 }
 #contactWrapper{
-    background: url('https://bankshotwebsiteimages.s3.us-east-2.amazonaws.com/BankShotCo-32T.jpg');
+    background: url('./css/images/BankShotCo-32T.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

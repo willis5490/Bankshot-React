@@ -69,7 +69,7 @@ class Slide extends Component {
 
        <div className=' uk-visible@m imagePopper'>
           <img
-            src='./css/images/balls.png'
+            src="../css/images/bankshotNewLogo.jpg"
             id='bankShotMovingLogo'
             ref={ img => this.bankShotMovingLogo = img }
             ></img>        
@@ -77,7 +77,7 @@ class Slide extends Component {
        
         <div className='uk-visible@s uk-hidden@m imagePopper'>
           <img
-            src='./css/images/balls.png'
+            src="../css/images/bankshotNewLogo.jpg"
             id='bankShotMovingLogo'
             ref={ img => this.bankShotMovingLogoIpad = img }
             ></img>
@@ -85,7 +85,7 @@ class Slide extends Component {
 
         <div className='uk-hidden@s imagePopper'>
           <img
-            src='./css/images/balls.png'
+            src="../css/images/bankshotNewLogo.jpg"
             id='bankShotMovingLogo'
             ref={ img => this.bankShotMovingLogoMobile = img }
             ></img>

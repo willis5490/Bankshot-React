@@ -86,8 +86,8 @@ background-color: #7C619B;
     background-size: cover;
 }
 #bankShotMovingLogo{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 50px;
 }
 .hiddenHomeDivs{
     width: 0px !important;
@@ -186,7 +186,7 @@ audio{
     text-align: right;
 }
 #footerBody{
-    background-color: #443555;
+    background-color: white;
 }
 .footerButtons:hover{
     color: black !important;
@@ -214,7 +214,7 @@ ul{
     background-color: #7C619B;
 }
 .uk-offcanvas-bar{
- background-color: #7C619B;
+ background-color: white;
  font-family: 'Monoton', cursive;
  
 }
@@ -283,8 +283,8 @@ ul{
   }
   .imagePopper{
       position: relative;
-      top: 40%;
-      left: 50%;
+      top: 45%;
+      left: 45%;
   }
  
  
@@ -305,8 +305,13 @@ ul{
     .slider{
         height: 700px;
     }
+    
     .imagePopper{
         margin-left: -30px;
+    }
+    #bankShotMovingLogo{
+        width: 150px;
+        height: 40px;
     }
 
     .musicPlayer{
@@ -351,7 +356,7 @@ ul{
         margin-left: -280px !important;
     }
     .Toastify__toast-container--bottom-center{
-        bottom: 15em !important;
+        bottom: 19em !important;
        
         
     }
@@ -403,11 +408,15 @@ ul{
         font-size: 13px !important;
         margin-left: 80px !important;
     }
+    #bankShotMovingLogo{
+        width: 100px;
+        height: 35px;
+    }
     .slider{
         height: 550px;
     }
     .imagePopper{
-        margin-left: -50px;
+        margin-left: -30px;
     }
    
     #middleHomePhotoBill{
@@ -509,6 +518,11 @@ ul{
     .formDiv{
         padding-right: 10px;
         padding-left: 10px;
+    }
+    .Toastify__toast-container--bottom-center{
+        bottom: 19em !important;
+        padding-right: 10px !important;
+        padding-left: 10px !important;
     }
 }
 @media only screen and (max-width: 340px) {

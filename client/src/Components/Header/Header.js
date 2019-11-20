@@ -9,15 +9,16 @@ class Header extends Component {
             <div>
                 <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
                     <nav id="headies" className="uk-navbar-container uk-margin uk-margin-auto uk-margin-auto-vertical" uk-navbar='true' uk-navbar="mode: click" >
-                        <div style={{ paddingLeft: '20px' }} className="uk-navbar-left uk-visible@m ">
+                        {/* <div style={{ paddingLeft: '20px' }} className="uk-navbar-left uk-visible@m ">
                             <ul className="uk-navbar-nav">
                                 <li style={{ padding: '15px' }} className=""><a href="/"><img id="logoimage" src="./css/images/bankshotNewLogo.jpg" alt="Bankshot music band logo"></img></a></li>
 
                             </ul>
-                        </div>
+                        </div> */}
                         <div className="uk-navbar-center uk-visible@m">
 
                             <ul id="middlenav" className="uk-navbar-nav">
+                            <li className=""><a id="mobile-links" href="/"><b><i>Home</i></b></a></li>
                                 <li>
                                     <a id="mobile-links" href="#"><b><i>Media</i></b></a>
                                     <div style={{ backgroundColor: '#7C619B' }} class="uk-navbar-dropdown">
@@ -52,7 +53,7 @@ class Header extends Component {
                                                 <a className="uk-offcanvas-close" uk-close>X</a>
                                                 <a href='/'><img className="uk-align-center uk-margin-remove-bottom" id="logoimage" src="./css/images/bankshotNewLogo.jpg" alt="Bankshot music band logo" width="100" height="75"  ></img></a>
                                             </li>
-                                            <hr className='uk-margin-small-top uk-align-center' style={{ borderBottom: '8px solid white', width: '60%' }}></hr>
+                                            <hr className='uk-margin-small-top uk-align-center' style={{ borderBottom: '8px solid #7C619B', width: '60%' }}></hr>
 
                                             <li className=""><a style={{ color: 'black', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/">Home</a></li>
                                             <li className=""><a style={{ color: 'black', fontSize: '20px', fontFamily: "'Cardo', serif", fontWeight: '700' }} href="/Videos">Videos</a></li>

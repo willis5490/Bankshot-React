@@ -17,8 +17,7 @@ class Header extends Component {
                         </div> */}
                         <div className="uk-navbar-center uk-visible@m">
 
-                            <ul id="middlenav" className="uk-navbar-nav">
-                            <li className=""><a id="mobile-links" href="/"><b><i>Home</i></b></a></li>
+                            <ul id="middlenav" className="uk-navbar-nav">                                
                                 <li>
                                     <a id="mobile-links" href="#"><b><i>Media</i></b></a>
                                     <div style={{ backgroundColor: '#7C619B' }} class="uk-navbar-dropdown">
@@ -29,8 +28,9 @@ class Header extends Component {
                                     </div>
                                 </li>
                                 <li className=""><a id="mobile-links" href="/About"><b><i>About</i></b></a></li>
-                                <li className=""><a id="mobile-links" href="/Contact"><b><i>Contact</i></b></a></li>
+                                <li className=""><a id="mobile-links" href="/Contact"><b><i>Contact</i></b></a></li>                                
                                 <li className=""><a id="mobile-links" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/bankshotmusic/events"><b><i>Shows</i></b></a></li>
+                                <li className=""><a id="mobile-links" href="/"><b><i>Home</i></b></a></li>
 
                             </ul>
                         </div>

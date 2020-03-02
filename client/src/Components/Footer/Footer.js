@@ -13,7 +13,7 @@ class Footer extends Component {
                         <div className='uk-align-left@m uk-align-center'>
                         <a className='footerButtons' style={{padding:'20px', color:'black', marginTop:'15px'}} target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bankshotmusic/"><i class="fab fa-instagram fa-2x"></i></a>                    
                         <a className='footerButtons' style={{padding:'20px', color:'black'}} target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/bankshotmusic"><i class="fab fa-facebook-square fa-2x"></i></a>
-                        <a className='footerButtons' style={{padding:'20px', color:'black'}} target="_blank" rel="noopener noreferrer" href="https://m.soundcloud.com/bankshotco"><i class="fab fa-soundcloud fa-2x"></i></a>
+                        <a className='footerButtons' style={{padding:'20px', color:'black'}} target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/artist/6rp3zEtWbUMDsHEX62CNTZ"><i class="fab fa-spotify fa-2x"></i></a>
                         </div>
                         
                   </div>

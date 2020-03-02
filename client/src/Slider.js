@@ -11,7 +11,7 @@ class Slider extends Component {
   
 	  this.state = {
 		images: [
-			"./css/images/BankShotCo-19.jpg",
+			"./css/images/BankShotCo-45.jpg",
 		  "./css/images/BankShotCo-17.jpg",
 		  "./css/images/BankShotCo-2.jpg",		
 		  "./css/images/BankShotCo-13.jpg", 

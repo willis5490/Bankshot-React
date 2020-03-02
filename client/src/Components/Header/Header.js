@@ -38,7 +38,7 @@ class Header extends Component {
                             <ul class="uk-navbar-nav">
                                 <li class="uk-active"> <a style={{ color: 'black' }} className='headerButtons' target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bankshotmusic/"><i class="fab fa-instagram fa-3x"></i></a></li>
                                 <li class="uk-active"><a style={{ color: 'black' }} className='headerButtons' target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/bankshotmusic"><i class="fab fa-facebook-square fa-3x"></i></a></li>
-                                <li class="uk-active"><a style={{ color: 'black' }} className='headerButtons' target="_blank" rel="noopener noreferrer" href="https://m.soundcloud.com/bankshotco"><i class="fab fa-soundcloud fa-3x"></i></a></li>
+                                <li class="uk-active"><a style={{ color: 'black' }} className='headerButtons' target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/artist/6rp3zEtWbUMDsHEX62CNTZ"><i class="fab fa-spotify fa-3x"></i></a></li>
                             </ul>
                         </div>
 

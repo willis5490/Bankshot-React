@@ -49,7 +49,7 @@ class TheBand extends Component {
                 </div>
             </div>
             <div id='tylerBio'></div>
-            <div id='theband1'  class=" uk-animation-scale-up uk-height-expand uk-background-cover  uk-margin-xlarge-top  uk-overflow-hidden  uk-flex uk-flex-top  " uk-grid='true' >
+            <div id='theband1'  class=" uk-animation-scale-up uk-height-expand uk-background-cover  uk-margin-xlarge-top   uk-margin-xlarge-bottom   uk-overflow-hidden  uk-flex uk-flex-top  " uk-grid='true' >
                     <div class="uk-width-1-2@m uk-width-1-1 uk-text-right@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
                         <div className='uk-container'>
                             <h1 class="uk-modal-title uk-margin-remove-bottom aboutSpaceNeeded"><b>Tyler</b></h1>
@@ -72,7 +72,7 @@ class TheBand extends Component {
                         <img style={{width:'450px', height:'350px'}} class="bankAboutPics"src="./css/images/BankShotCo-43.jpg" alt="Bankshot band drum player Denver, CO" />
                     </div>
                 </div>
-                <div id='billsBio'></div>
+                {/* <div id='billsBio'></div>
             <div id='theband1'  class=" uk-animation-scale-up uk-height-expand uk-background-cover  uk-margin-xlarge-top uk-overflow-hidden  uk-flex uk-flex-top  " uk-grid='true' >
                 <div class="uk-width-1-2@m uk-width-1-1 uk-text-center uk-margin-auto uk-margin-auto-vertical">
                     <img style={{width:'450px', height:'350px'}} class="bankAboutPics"src="./css/images/BankShotCo-24.jpg" alt="Bankshot band bass player Denver, CO"/>
@@ -106,7 +106,7 @@ class TheBand extends Component {
                     <div class="uk-width-1-2@m uk-width-1-1 uk-text-center uk-margin-auto uk-margin-auto-vertical uk-flex-first uk-flex-last@m ">
                         <img style={{width:'450px', height:'350px'}} class="bankAboutPics"  src="./css/images/whits-bio-pic.png" alt="Bankshot band keyboard player Denver, CO"/>
                     </div>
-                </div>
+                </div> */}
            
           </div>
 

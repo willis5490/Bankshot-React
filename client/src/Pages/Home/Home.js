@@ -32,7 +32,7 @@ class Home extends Component {
             </div>
           </div> */}
 
-          <div id='homeWrapperPhoto' className=''>
+          <div id='homeWrapperPhoto' className='uk-visible@m'>
               <div className='uk-container '>
                 <div uk-grid='true' className=''>
                     <div className='uk-with-1-1 uk-width-1-3@m uk-visible@m uk-margin-large-top uk-margin-large-bottom'>                     
